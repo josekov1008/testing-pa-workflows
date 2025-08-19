@@ -1,0 +1,57 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25081.160" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25082.00136">
+  <Entities></Entities>
+  <Roles></Roles>
+  <Workflows>
+    <Workflow WorkflowId="{51ce7878-c67c-f011-b4cb-7ced8d3d160f}" Name="Button -&gt; Terminate">
+      <JsonFileName>/Workflows/Button-Terminate-51CE7878-C67C-F011-B4CB-7CED8D3D160F.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <BusinessProcessType>0</BusinessProcessType>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <ModernFlowType>0</ModernFlowType>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Button -&gt; Terminate" />
+      </LocalizedNames>
+    </Workflow>
+  </Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <Connectors>
+    <Connector>
+      <connectorid>afc4c755-37f2-4bb5-86bf-d895aa2b65e4</connectorid>
+      <description>This is a sample custom connector for testing the icon only</description>
+      <displayname>Test API Connector</displayname>
+      <iconbrandcolor>#e60012</iconbrandcolor>
+      <name>jokovace_5Ftest-20api-20connector</name>
+      <connectortype>1</connectortype>
+      <openapidefinition>/Connector/jokovace_5Ftest-20api-20connector_openapidefinition.json</openapidefinition>
+      <connectionparameters>/Connector/jokovace_5Ftest-20api-20connector_connectionparameters.json</connectionparameters>
+      <policytemplateinstances>/Connector/jokovace_5Ftest-20api-20connector_policytemplateinstances.json</policytemplateinstances>
+      <iconblob>/Connector/jokovace_5Ftest-20api-20connector_iconblob.Png</iconblob>
+    </Connector>
+  </Connectors>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>
