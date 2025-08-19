@@ -1,0 +1,23 @@
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: windows-latest   # alternate runner OS is: ubuntu-latest
+
+    steps:
+    - name: Install Power Platform Tools
+      uses: microsoft/powerplatform-actions/actions-install@v1
+
+    - name: Pack Solution
+      uses: microsoft/powerplatform-actions/pack-solution@v1
+      with:
+        solution-file: 'solution/test-solution.zip'
+        solution-folder: 'out'
+
+    - name: Import Solution
+      uses: microsoft/powerplatform-actions/import-solution@v1
+      with:
+        environment-url: 'https://org76fe2d7a.api.crm.dynamics.com'
+        user-name: 'jokovace@microsoft.com'
+        password-secret: ${{ secrets.MYPASSWORD }}
