@@ -13,7 +13,7 @@ jobs:
       uses: microsoft/powerplatform-actions/pack-solution@v1
       with:
         solution-file: 'out'
-        solution-folder: 'solution'
+        solution-folder: 'test-solution'
 
     - name: Import Solution
       uses: microsoft/powerplatform-actions/import-solution@v1
