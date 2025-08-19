@@ -12,8 +12,8 @@ jobs:
     - name: Pack Solution
       uses: microsoft/powerplatform-actions/pack-solution@v1
       with:
-        solution-file: 'test-solution/customizations.xml'
-        solution-folder: 'out'
+        solution-file: 'out'
+        solution-folder: 'solution'
 
     - name: Import Solution
       uses: microsoft/powerplatform-actions/import-solution@v1
